@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Install, update and uninstall functions for the minimal install profile.
+ * Install, update and uninstall functions for the sivumestari install profile.
  */
 
 /**
@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function minimal_install() {
+function sivumestari_install() {
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', 'bartik');
   $values = array(
