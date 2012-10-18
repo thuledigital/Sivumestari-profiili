@@ -1,5 +1,5 @@
-name = Minimal
-description = Start with only a few modules enabled.
+name = Sivumestari
+description = Sivumestarin aloitusprofiili.
 version = VERSION
 core = 7.x
 dependencies[] = block
